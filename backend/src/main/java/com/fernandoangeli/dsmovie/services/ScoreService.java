@@ -32,7 +32,7 @@ public class ScoreService {
             user.setEmail(dto.getEmail());
             user = userRepository.saveAndFlush(user);
         }
-        Movie movie = movieRepository.findById(dto.getMovieId()).get();
+        Movie movie = movieRepository.findById(dto.getMovie_id()).get();
 
         Score score = new Score();
         score.setMovie(movie);

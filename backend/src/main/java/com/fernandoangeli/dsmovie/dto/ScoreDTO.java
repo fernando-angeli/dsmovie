@@ -7,7 +7,7 @@ import lombok.Setter;
 @Setter
 public class ScoreDTO {
 
-    private Long movieId;
+    private Long movie_id;
     private String email;
     private Double score;
 
